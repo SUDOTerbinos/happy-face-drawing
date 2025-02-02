@@ -1,5 +1,5 @@
 def draw_happy_face():
-    face = """
+  print (
         *****
       *       *
     *   O   O   *
@@ -7,8 +7,7 @@ def draw_happy_face():
     *   \___/   *
       *       *
         *****
-    """
-    print(face)
+            )
 
 if __name__ == "__main__":
     draw_happy_face()
